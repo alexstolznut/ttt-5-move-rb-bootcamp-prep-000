@@ -12,9 +12,9 @@ end
 # code your input_to_index and move method here!
 def input_to_index(index, board)
   index = index.to_i
-  if index > 0 && index < 10
+
     board[index-1].push(move)
-  end
+
   move(move)
 
 end
