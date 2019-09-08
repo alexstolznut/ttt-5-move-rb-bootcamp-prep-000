@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(index)
-  board[index].push(move)
+  board[index-1].push(move)
 end
 
 def move
