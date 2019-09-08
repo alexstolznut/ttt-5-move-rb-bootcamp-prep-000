@@ -7,3 +7,17 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+def input_to_index(index)
+  board[index].push(move)
+end
+
+def move
+  move = true
+  if(move===true){
+    move = false;
+    return 'X'
+  } else {
+    move = true;
+    return 'O'
+  }
+end
