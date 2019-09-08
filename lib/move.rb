@@ -16,10 +16,10 @@ end
 def move
   move = true
   if(move===true){
-    move = false;
+    move = false
     return 'X'
   } else {
-    move = true;
+    move = true
     return 'O'
   }
 end
