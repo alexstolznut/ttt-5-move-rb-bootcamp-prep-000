@@ -1,4 +1,5 @@
 board = Array.new(9, " ")
+move = "X"
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -14,16 +15,15 @@ def input_to_index(index, board)
   if index > 0 && index < 10
     board[index-1].push(move)
   end
+  move(move)
 
 end
 
-def move
+def move(move)
   move = true
-  if move===true
-    move = false
-    return 'X'
+  if move=='X'
+    move = 'O'
    else
-    move = true
-    return 'O'
+    move = 'X'
   end
 end
