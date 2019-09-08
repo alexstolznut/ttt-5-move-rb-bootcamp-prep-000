@@ -8,8 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(index)
-  if(index>0 && index<10)
+  if(index>0 && index<10){
   board[index-1].push(move)
+}
 end
 
 def move
