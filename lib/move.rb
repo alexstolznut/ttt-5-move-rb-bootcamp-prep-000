@@ -18,7 +18,8 @@ def input_to_index(index)
 
 end
 
-def move(move)
+def move(board, index, move)
+  board[index-1] = move
   if move=='X'
     move = 'O'
   else
