@@ -19,7 +19,6 @@ def input_to_index(index)
 end
 
 def move(move)
-  move = true
   if move=='X'
     move = 'O'
    else
