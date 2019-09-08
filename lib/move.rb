@@ -20,7 +20,7 @@ def move(board, index, move = "X")
   display_board(board)
   if move === "X"
     move = "O"
-  else 
+  else
     move = "X"
   end
 end
