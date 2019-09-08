@@ -10,3 +10,4 @@ puts "Where would you like to go?"
 display_board(board)
 index = gets.strip
 input_to_index(index)
+move(board,index,move)
