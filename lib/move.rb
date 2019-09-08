@@ -10,19 +10,3 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(index)
-  index = index.to_i
-
-  board [index-1].push(move)
-  move(move)
-
-end
-
-def move()
-  board[index-1] = move
-  if move=='X'
-    move = 'O'
-  else
-    move = 'X'
-  end
-end
