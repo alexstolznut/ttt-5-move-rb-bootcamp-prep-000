@@ -21,7 +21,7 @@ end
 def move(move)
   if move=='X'
     move = 'O'
-   else
+  else
     move = 'X'
   end
 end
