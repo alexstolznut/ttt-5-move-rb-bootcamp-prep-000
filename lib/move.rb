@@ -10,12 +10,10 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(index)
+def input_to_index(index,board,move)
   index = index.to_i
 
   board[index-1].push(move)
-
-  move(move)
 
 end
 
