@@ -13,7 +13,7 @@ end
 def input_to_index(index)
   index = index.to_i
 
-  board[index-1].push(move)
+  board [index-1].push(move)
 
 end
 
