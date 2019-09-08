@@ -8,18 +8,19 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(index)
-  if(index>0 && index<10){
-  board[index-1].push(move)
-}
+  if index>0 && index<10
+    board[index-1].push(move)
+  end
+
 end
 
 def move
   move = true
-  if(move===true){
+  if move===true
     move = false
     return 'X'
-  } else {
+   else
     move = true
     return 'O'
-  }
+  end
 end
