@@ -18,4 +18,9 @@ def move(board, index, move = "X")
   index = input_to_index()
   board[index] = move
   display_board(board)
+  if move === "X"
+    move = "O"
+  else 
+    move = "X"
+  end
 end
