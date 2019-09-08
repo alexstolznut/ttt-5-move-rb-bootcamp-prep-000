@@ -16,6 +16,6 @@ end
 
 def move(board, index, move='X')
   index = input_to_index()
-  board[index.to_i] = move
+  board[index] = move
   display_board(board)
 end
