@@ -1,4 +1,4 @@
-board = Array.new(9, " ")
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 move = "X"
 
 def display_board(board)
